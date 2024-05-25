@@ -15,7 +15,7 @@ def mtcnn_face_detect(frame):
 
 
     
-image = cv2.imread(r"D:/ytb/WIN_20240404_07_18_34_Pro.jpg")
+image = cv2.imread(r"WIN_20240404_07_18_34_Pro.jpg")
 face = mtcnn_face_detect(image)
 if face:
     
